@@ -1,0 +1,12 @@
+class Hewan:
+    def __init__(self, nama, jenis):
+        self.nama = nama
+        self.jenis = jenis
+
+    def bersuara(self):
+        print(f"{self.nama} adalah {self.jenis} dan sedang bersuara.")
+
+# Membuat objek
+kucing = Hewan("Kucing", "Mamalia")
+kucing.bersuara()
+
